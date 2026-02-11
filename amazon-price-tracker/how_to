@@ -1,0 +1,12 @@
+# Create project folder
+mkdir amazon_price_tracker
+cd amazon_price_tracker
+
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
