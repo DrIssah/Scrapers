@@ -49,7 +49,8 @@ class AmazonScraper:
                 '.a-price .a-offscreen',
                 '#price_inside_buybox',
                 '.a-price-range',
-                '.a-color-price'
+                '.a-color-price',
+                '#_price.olpWrapper.a-size-small'
             ]
 
             price_symbol_selectors = [
@@ -81,6 +82,7 @@ class AmazonScraper:
                 price_text = price_text.replace('$', '').replace(',', '').strip()
                 # Extract first number found
                 import re
+                print("----------"+price_text)
                 price_match = re.search(r'(\d+\.?\d*)', price_text)
                 if price_match:
                     price = float(price_match.group(1))

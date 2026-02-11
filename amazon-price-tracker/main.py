@@ -30,7 +30,7 @@ def check_price_alert(price, target_price, product_name):
 def main():
     print("🚀 Starting Amazon Price Tracker...")
     
-    scraper = AmazonScraper(headless=True)
+    scraper = AmazonScraper(headless=False)
     
     try:
         scraper.start()

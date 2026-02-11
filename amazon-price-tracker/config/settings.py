@@ -12,13 +12,13 @@ PRODUCTS = [
         "target_price": 250.00
     },
     {
-        "name": "Amazon Echo Dot (5th Gen)",
-        "url": "https://www.amazon.com/Echo-Dot-5th-Gen/dp/B09B8V1LZ3",
-        "target_price": 30.00
+        "name": "Anker Nano USB C Wall Charger, 45W Fast Charging Smart",
+        "url": "https://www.amazon.com/Anker-Charging-Foldable-Recognition-Non-Battery/dp/B0G1MRLXMV",
+        "target_price": 300.00
     },
     {
-        "name": "Kindle Paperwhite",
-        "url": "https://www.amazon.com/Kindle-Paperwhite-Adjustable-Warm-Light/dp/B08N3LC9J8",
+        "name": "Gaming Laptop, 15.6inch Laptop with AMD Ryzen 7",
+        "url": "https://www.amazon.com/KAIGERR-15-6inch-Performance-Computer-Graphics/dp/B0GD61F6FC",
         "target_price": 100.00
     }
 ]
