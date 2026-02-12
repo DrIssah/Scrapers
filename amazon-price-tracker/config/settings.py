@@ -4,26 +4,44 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Products to track - YOU CAN EDIT THIS LIST
+# Products to track - Amazon + Walmart
 PRODUCTS = [
+    # AMAZON PRODUCTS
     {
         "name": "Sony WH-1000XM4 Headphones",
         "url": "https://www.amazon.com/Sony-WH-1000XM4-Canceling-Headphones-phone-call/dp/B0863TXGM3",
-        "target_price": 250.00
+        "target_price": 250.00,
+        "site": "Amazon"
     },
     {
-        "name": "Anker Nano USB C Wall Charger, 45W Fast Charging Smart",
-        "url": "https://www.amazon.com/Anker-Charging-Foldable-Recognition-Non-Battery/dp/B0G1MRLXMV",
-        "target_price": 300.00
+        "name": "Amazon Echo Dot (5th Gen)",
+        "url": "https://www.amazon.com/Echo-Dot-5th-Gen/dp/B09B8V1LZ3",
+        "target_price": 30.00,
+        "site": "Amazon"
+    },
+    
+    # WALMART PRODUCTS
+    {
+        "name": "PlayStation 5 Console",
+        "url": "https://www.walmart.com/ip/Sony-PlayStation-5-Console/363472942",
+        "target_price": 499.00,
+        "site": "Walmart"
     },
     {
-        "name": "Gaming Laptop, 15.6inch Laptop with AMD Ryzen 7",
-        "url": "https://www.amazon.com/KAIGERR-15-6inch-Performance-Computer-Graphics/dp/B0GD61F6FC",
-        "target_price": 100.00
+        "name": "Xbox Series X",
+        "url": "https://www.walmart.com/ip/Xbox-Series-X/443574645",
+        "target_price": 499.00,
+        "site": "Walmart"
+    },
+    {
+        "name": "LEGO Star Wars Millennium Falcon",
+        "url": "https://www.walmart.com/ip/LEGO-Star-Wars-Millennium-Falcon-75257/326316961",
+        "target_price": 120.00,
+        "site": "Walmart"
     }
 ]
 
-# Email settings - FILL THIS IN .env file
+# Email settings
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = os.getenv("EMAIL_SENDER")
